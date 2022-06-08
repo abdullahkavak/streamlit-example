@@ -71,6 +71,7 @@ from sklearn.model_selection import GridSearchCV, cross_validate
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 import warnings
+import streamlit as st
 warnings.simplefilter(action="ignore")
 
 pd.set_option('display.max_columns', None)
